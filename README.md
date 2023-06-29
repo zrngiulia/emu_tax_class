@@ -4,3 +4,12 @@ Commands to use Emu taxonomic classifier (Curry et al., Nat Methods 2022; https:
 Emu abundance command obtains species-level taxonomic classification for the whole dataset;
 
 Emu collapse command collapses the classification to the wanted taxonomical level (e.g., phylum; class etc.).
+
+## Activate conda environment for emu
+conda activate emu-3.0
+
+## Command parameters for emu_abundance
+bash abundance.sh /path/to/emu/db/ /output/directory/ /input/directory/is/wd/of/preprocessing/pipeline
+
+
+
