@@ -1,5 +1,6 @@
 # emu_tax_class
 Commands to use Emu taxonomic classifier (Curry et al., Nat Methods 2022; https://doi.org/10.1038/s41592-022-01520-4) on preprocessed Nanopore FASTQ reads.
+https://gitlab.com/treangenlab/emu
 
 Emu abundance command obtains species-level taxonomic classification for the whole dataset;
 
