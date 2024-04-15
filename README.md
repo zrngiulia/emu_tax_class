@@ -4,7 +4,7 @@ https://gitlab.com/treangenlab/emu
 
 Emu abundance command obtains species-level taxonomic classification for the whole dataset;
 
-Emu collapse command collapses the classification to the desired taxonomical rank (e.g., phylum; class etc.).
+Emu collapse command collapses the classification to the desired taxonomical rank ('species', 'genus', 'family', 'order', 'class', 'phylum', 'clade', 'superkingdom').
 
 ## Activate conda environment for emu
 conda activate full/path/to/emu-3.0
