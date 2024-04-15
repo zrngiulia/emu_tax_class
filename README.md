@@ -12,5 +12,5 @@ conda activate full/path/to/emu-3.0
 ## Command parameters for emu_abundance
 bash abundance.sh /path/to/emu/db/ /output/directory/ /input/directory/is/wd/of/preprocessing/pipeline
 
-
-
+## Command parameters for abundance_sbatch
+sbatch abundance_sbatch.sh /path/to/emu/db/ /output/directory/ /input/directory/is/wd/of/preprocessing/pipeline
