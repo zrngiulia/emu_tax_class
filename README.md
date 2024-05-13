@@ -7,10 +7,19 @@ Emu abundance command obtains species-level taxonomic classification for the who
 Emu collapse command collapses the classification to the desired taxonomical rank ('species', 'genus', 'family', 'order', 'class', 'phylum', 'clade', 'superkingdom').
 
 ## Activate conda environment for emu
+```
 conda activate full/path/to/emu-3.0
+```
 
 ## Command parameters for emu_abundance
+```
 bash abundance.sh /path/to/emu/db/ /output/directory/ /input/directory/is/wd/of/preprocessing/pipeline
+```
 
 ## Command parameters for abundance_sbatch
+
+Note: the sbatch command incorporates both abundance and collapsing to all ranks of the emu default database.
+
+```
 sbatch abundance_sbatch.sh /path/to/emu/db/ /output/directory/ /input/directory/is/wd/of/preprocessing/pipeline
+```
